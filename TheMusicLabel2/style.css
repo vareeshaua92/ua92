@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital@1&display=swap'); 
+/* Imported from Google Font */
+
+:root {
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+
+}
+
+
+body {
+    font-family: 'Tourney',"san-serif";
+    line-height:1.7;
+    color: var(--body);
+    font-weight: 400;
+    font-size: 20px;
+    padding:70px;
+}
+
+h1,h2,h3,h4,
+.display-4{
+    color: var(--dark);
+    font-weight: 700;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+
+/* START OF SHOP CSS */
+
+.product-container {
+	float: left;
+	width: 50%;
+}
+.product {
+	padding:1em; 
+	border:1px solid rgb(13, 179, 208); 
+	margin-right:1em; 
+	border-radius:5px;
+	margin-top: 10px;
+	background-color: rgb(13, 179, 208));
+
+}
+.cart-container {
+	border:1px solid rgb(241, 237, 219);
+	border-radius:5px;
+	margin-top:1em;
+	padding:1em;
+	float: right;
+	width: 50%;
+}
+.cart-buttons {
+	width:auto;
+	margin-right:0;
+	margin-left:auto;
+	display:flex;
+	justify-content:flex-end;
+	padding:1em 0;
+}
+#emptycart {
+	margin-right: 10px;
+}
+.message {
+	border: 1px solid rgb(13, 179, 208);
+	background-color: rgb(13, 179, 208);
+	padding: 10px;
+	margin: 10px;
+}
+.text1 {
+	font-size: 12px;
+}
+
+
+/* END OF SHOP CSS */
+
+
+
+.navbar {
+    box-shadow: var(--box-shadow);
+
+}
+
+.navbar. nav-link {
+    font-size: 146px;
+    font-weight: 900;
+}
+
+.btn {
+    padding: 14px 18px ; 
+    border-width: 2px ;
+    border-radius: 0;
+
+}
+
+/* Homepage background */
+.hero {
+    background-image: url(images/Big-Sean-683x1024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(images/Big-Sean-683x1024.jpg);
+    }
+    20%
+    {
+        background-image: url(images/cfe85ed3a39d1bcb65b5da5c4f75b363.jpg);
+    }
+    40%
+    {
+        background-image: url(images/Leake-Street-Tunnel-1.jpg);
+    }
+    60%
+    {
+        background-image: url(images/sza_sq-5a43e9b7680aaeed2dddc3dd6a648ae3d986c8ea-s800-c85.jpg);
+    }
+    80%
+    {
+        background-image: url(images/Screenshot\ 2023-02-17\ at\ 02.31.48.png);
+    }
+    100%
+    {
+        background-image: url(images/Coi-Leray-1rev-scaled.jpg);
+    }
+   
+}
+
+/* Homepage background ends */
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Card effect */
+
+.card-effect {
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+
+}
+
+form input.form-control {
+    height: 56px;
+}
+form .form-control{
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.02);
+
+}
+/* Card effect ends */
+
